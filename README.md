@@ -1,11 +1,8 @@
 # terraform-aws-eks
 
-Terraform-aws-eks is a module that creates an Elastic Kubernetes Service(EKS) cluster with self-managed nodes
+Terraform-aws-eks is a module that creates an Elastic Kubernetes Service(EKS) cluster with self-managed nodes.
 
-This module requires:
- - Terraform Version >=0.12.20
-
- This module creates:
+ The following resources will be created:
 
 - Auto Scaling
 - CloudWatch log groups
