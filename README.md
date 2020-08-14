@@ -17,3 +17,11 @@ In addition you can:
 
 - Set EC2 launch templates
 - set Userdata
+
+## Author
+
+Module managed by [DNX Solutions](https://github.com/DNXLabs).
+
+## License
+
+Apache 2 Licensed. See [LICENSE](https://github.com/DNXLabs/terraform-aws-eks/blob/master/LICENSE) for full details.
