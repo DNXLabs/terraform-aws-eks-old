@@ -1,5 +1,8 @@
 # terraform-aws-eks
 
+[![Lint Status](https://github.com/DNXLabs/terraform-aws-eks/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-eks/actions)
+[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-eks)](https://github.com/DNXLabs/terraform-aws-eks/blob/master/LICENSE)
+
 Terraform-aws-eks is a module that creates an Elastic Kubernetes Service(EKS) cluster with self-managed nodes.
 
  The following resources will be created:
@@ -17,6 +20,10 @@ In addition you can:
 
 - Set EC2 launch templates
 - set Userdata
+
+<!--- BEGIN_TF_DOCS --->
+
+<!--- END_TF_DOCS --->
 
 ## Author
 
