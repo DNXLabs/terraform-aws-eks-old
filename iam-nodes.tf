@@ -1,6 +1,6 @@
 resource "aws_iam_instance_profile" "eks" {
   name_prefix = "eks-${var.name}-"
-  role = aws_iam_role.eks.name
+  role        = aws_iam_role.eks.name
 }
 
 resource "aws_iam_role" "eks" {

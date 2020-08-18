@@ -4,7 +4,7 @@ data "template_file" "userdata" {
   vars = {
     tf_cluster_name = aws_eks_cluster.default.name
     # tf_efs_id       = aws_efs_file_system.ecs.id
-    userdata_extra  = var.userdata
+    userdata_extra = var.userdata
   }
 }
 

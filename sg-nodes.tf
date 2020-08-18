@@ -4,7 +4,7 @@ resource "aws_security_group" "eks_nodes" {
   vpc_id      = var.vpc_id
 
   tags = {
-    Name = "eks-${var.name}-nodes",
+    Name                                                    = "eks-${var.name}-nodes",
     "kubernetes.io/cluster/${aws_eks_cluster.default.name}" = "owned"
   }
 }
